@@ -1,0 +1,26 @@
+{
+  "name": "system-info",
+  "version": "1.0.0",
+  "description": "",
+  "main": "system-info.js",
+  "dependencies": {
+    "shelljs": "^0.7.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  },
+  "scripts": {
+    "test": "$(npm bin)/mocha tests --recursive || exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxeko/system-info.git"
+  },
+  "author": "Maxim E. Korshunov <korshunov.m.e@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxeko/system-info/issues"
+  },
+  "homepage": "https://github.com/maxeko/system-info#readme"
+}
